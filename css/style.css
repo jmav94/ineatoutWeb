@@ -139,7 +139,7 @@ h5 {
 .dropdown-menu>.active>a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #1ab394;
+    background-color: #f07b3f;
     outline: 0;
 }
 
@@ -821,8 +821,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .btn-primary:active:hover,
 .btn-primary.active:hover,
 .btn-primary.active:focus {
-    background-color: #18a689;
-    border-color: #18a689;
+    background-color: #f07b3f;
+    border-color: #f07b3f;
     color: #FFFFFF;
 }
 
@@ -847,8 +847,53 @@ fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-    background-color: #1dc5a3;
+    background-color: #f07b3f;
     border-color: #1dc5a3;
+}
+
+.btn-orange {
+    background-color: #f07b3f;
+    border-color: ##f29768;
+    color: #FFFFFF;
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange,
+.btn-orange:active:focus,
+.btn-orange:active:hover,
+.btn-orange.active:hover,
+.btn-orange.active:focus {
+    background-color: #f16a25;
+    border-color: #f16a25;
+    color: #FFFFFF;
+}
+
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+    background-image: none;
+}
+
+.btn-orange.disabled,
+.btn-orange.disabled:hover,
+.btn-orange.disabled:focus,
+.btn-orange.disabled:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled],
+.btn-orange[disabled]:hover,
+.btn-orange[disabled]:focus,
+.btn-orange[disabled]:active,
+.btn-orange.active[disabled],
+fieldset[disabled] .btn-orange,
+fieldset[disabled] .btn-orange:hover,
+fieldset[disabled] .btn-orange:focus,
+fieldset[disabled] .btn-orange:active,
+fieldset[disabled] .btn-orange.active {
+    background-color: #f16a25;
+    border-color: #f16a25;
 }
 
 .btn-success {
@@ -1775,8 +1820,8 @@ button.dim:active:before {
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
-    background-color: #1ab394;
-    border-color: #1ab394;
+    background-color: #f07b3f;
+    border-color: #f07b3f;
     color: #FFFFFF;
     z-index: 2;
 }
